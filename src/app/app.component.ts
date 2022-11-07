@@ -10,8 +10,8 @@ export class AppComponent {
   innerText = "";
 
 getValue(){
- let value  = confirm("do you want to show information?");
- if(value){
+
+ if(confirm("do you want to show information?")){
   this.innerText = "you choose yes"
  }else{
   this.innerText = "you choose no"
